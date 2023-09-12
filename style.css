@@ -5,6 +5,8 @@ body{
     margin: 0%;
     font-family:Arial, Helvetica, sans-serif;
     display: flex;
+    max-width: 100%;
+    overflow-x: hidden;
 
 }
 .Head{
