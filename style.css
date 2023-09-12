@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    background-color: #0f0f0f;
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+.Head{
+    display: flex;
+
+}
+
+.top-Nav{
+    
+    display: flex;
+    background-color:#0f0f0f;
+    height: 60px;
+    width: 100%;
+    padding-top: 7px;
+}
+
+.logo{
+    display: flex;
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.logo-name{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   
+    margin-top: 4px;
+    margin-left: 5px;
+    font-family: fantasy;
+}
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #2d2d2d;
+  border-right: none;
+  padding: 4px;
+  padding-left: 20px;
+  height: 28px;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000000;
+}
+
+.searchTerm:focus{
+  color: #313131;
+}
+
+.searchButton {
+  width: 50px;
+  height: 40px;
+  border: 1px solid #1f1f1f;
+  background: #1d1d1d;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 37%;
+  position: absolute;
+  top: 5%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.Voice-search{
+    margin-top: 8px;
+}
+.voice{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 50px;
+    position: absolute;
+    top:2%;
+    
+    background-color: #1d1d1d;
+}
+
+
+.upload{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    position: absolute;
+    top:2%;
+
+    
+    background-color: #1d1d1d;
+}
+
+.upload-button{
+    margin-top: 8px;
+}
+
+.bell{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 410px;
+    position: absolute;
+    top:2%;
+    background-color: #0f0f0f;
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 470px;
+    position: absolute;
+    top:2%;
+    background-color: #1d1d1d;
+}
+
+
+.side-Nav{
+    background-color: #0f0f0f;
+    width: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-icon{
+    position: absolute;
+    margin-left: 30px;
+    top: 3.5%;
+}
+.home-icon{
+    position: absolute;
+    top: 12%;
+}
+
+.icon-names{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 8px;
+}
+.history-icon{
+    position: absolute;
+    top: 22%;
+}
+.videos-icon{
+    position: absolute;
+    top: 31%;
+}
+
+.content{
+    position: absolute;
+    left: 7%;
+    top: 10%;
+    background-color: #0f0f0f;
+    width: 94%;
+    height: 100vh;
+    display: flex ;
+    flex-wrap: wrap;
+}
+
+.v1{
+    
+    background-color: #0f0f0f;
+}
+.v2{
+    
+    background-color: #0f0f0f;
+}
+.v3{
+    
+    background-color: #0f0f0f;
+}
+.v4{
+    background-color: #0f0f0f;
+}
+.v5{
+    background-color: #0f0f0f;
+
+}
+.v6{
+    background-color: #0f0f0f;
+}
+.tile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 475px;
+    height: 340px;
+
+}
+
+.video-title{
+    display: flex;
+    color: white;
+    
+    
+}
+
+.channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+    margin-top: 10px;
+
+}
